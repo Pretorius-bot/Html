@@ -1,0 +1,85 @@
+.grid-container{
+    display: grid;
+    padding: 10px;
+    grid-gap: 10px;
+    height: 400px;
+    grid-template-areas:
+     'a a a a a a'
+     'b b c c c d'
+     'e e e e e e'
+     'f f f f f f';
+    background-color: white;
+    align-content: space-around;
+}
+
+#one{
+    background-color: red;
+    grid-area: a;
+    width: unset;
+    height: 20vh;
+    text-align: center;
+}
+#two{
+    background-color: yellow;
+    grid-area: b;
+}
+#three{
+    background-color: greenyellow;
+    grid-area: c;
+}
+#four{
+    background-color: dodgerblue;
+    grid-area: d;
+}
+#five{
+    background-color: green;
+    grid-area: e;
+}
+#six{
+    background-color: aqua;
+    grid-area: f;
+}
+.flex-container{
+    display: flex;
+
+}
+#fone{
+    margin: 20px;
+    padding: 10px;
+
+}
+
+#ftwo{
+    background-color: firebrick;
+    margin: 20px;
+    padding: 10px;
+}
+#fthree{
+    background-color: indigo;
+    margin: 20px;
+    padding: 10px;
+}
+#ffive{
+    background-color: lightgray;
+    margin: 20px;
+    padding: 10px;
+}
+@media only screen and (max-width: 364px){
+    /*new code style for this device*/
+    .grid-container {
+        display: grid;
+        grid-gap: 10px;
+        padding: 10px;
+        grid-template-areas:
+                'a a a a a a'
+                'b b b b b b'
+                'c c c c c c'
+                'd d d d d d'
+                'e e e e e e'
+                'f f f f f f';
+    }
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+    }
+}

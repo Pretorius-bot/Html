@@ -1,0 +1,56 @@
+/*4 states of link*/
+#linkStyling:link{
+    color: hotpink;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    background-color: navajowhite;
+}
+#linkStyling:visited{
+    color: green;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    background-color: whitesmoke;
+}
+#linkStyling:hover{
+    color: red;
+    text-decoration: underline;
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+}
+#linkStyling:active{
+    color: blue;
+    text-decoration: underline;
+    padding: 10px;
+    margin: 10px;
+    background-color: blueviolet;
+}
+#studentTable{
+    font-family:Arial, Helvetica, sans-serif ;
+    border-collapse: collapse;
+    width: 100%;
+}
+#studentTable td, #studentTable th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#studentTable th{
+    padding: 12px;
+    text-align: left;
+    background-color: black;
+    color: navajowhite;
+}
+#studentTable tr:hover{
+    background-color: #d4d4d4;
+}
+#exampleDiv{
+    background-image: url("../image/image1.jfif");
+    height: 120px;
+    background-size: cover;
+    padding: 20px;
+}
+ul{
+    list-style-type: none;
+}

@@ -1,0 +1,59 @@
+design
+HTML CSS BOOTSTRAP JS + HTML
+
+
+HTML: hyper text markup language
+
+2. Layout technique:
+
+
+3.indentifier
+id
+class div= the whole class
+tagme #one specific
+
+creat flexbox
+flexbox ----link the css to the flexbox ..
+creat division and id ......creat flexbox in css
+call/run the flexbox from flexbox
+
+css
+you style html elements using the following tags
+1.id : Style specific element with the id
+2.class: groups a styling and associate it with any element falling within the class
+3.element name: styles any elements without an id or class
+
+we have three forms of css
+1.internal
+css is written inside the html file
+2.external
+css is written outside th html file
+3.inline
+css is written using the style attribute inside the html
+q
+-------------------------------------------------------------------------------
+
+common properties: can applied to any element
+unique properties: only applied
+
+
+google color pallets
+
+
+
+ javascript (dom)
+ // find elements using dom, we have the following methods
+
+ document.getElementById9(id)
+ document.getElementByTagName('element')
+ document.querySelectorall()
+ document.getElementByClassName('class Name')
+
+ using js for styling
+
+document.getElementById()
+document.getElementBytagName
+
+Element.attribute = change the atribute value og html
+
+emobilis.lms.org

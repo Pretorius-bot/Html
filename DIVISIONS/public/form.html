@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, intial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="../css/form.css">
+</head>
+<body>
+<div class="container">
+    <!--   form-->
+    <!--          inside the form we can have input-->
+<!--    <div class="row"></div>-->
+        <div>
+            <label> First name</label>
+        </div>
+        <div class="col-75"></div>
+        <input type="text" name="fname" id="fname" placeholder= "Enter your full name">
+        </input>
+
+        <div>
+            <label> Email</label>
+        </div>
+        <div class="col-75"></div>
+        <input type="email"
+               name="email"
+               id="email"
+               placeholder= "Enter your email address">
+
+        <div>
+            <label> Password</label>
+        </div>
+
+        <div class="col-75"></div>
+            <input type="password"
+                   name="password"
+                   id="password"
+                   placeholder= "Enter your password">
+            </input>
+        <!--          dropdown-->
+
+                <label >Country of origin</label>
+                <select id="country" name="country">
+                    <option value="Kenya">Kenya</option>
+                    <option value="Uganda">Uganda</option>
+                    <option value="Tanzania">Tanzania</option>
+                    <option value="United kingdom">United kingdom</option>
+                </select>
+
+                <div class="col-25"><label>User image</label>
+                    <img class="center" src="../image/image1.jfif" alt="shoe" width="200" height="200">
+                    <br>
+                    <button class="center">Sample button</button>
+                </div>
+
+<!--            <div class="col-25"></div>-->
+<!--                <label>Enter bio</label>-->
+
+            <div class="col-75"></div>
+            <div>
+            <label>Enter bio</label></div>
+
+            <textarea name="bio" id="bio" cols="100" rows="10" placeholder="Enter your bio"></textarea>
+
+                <form id="cla" action="#" method="post" enctype=multipart/form-data"">
+                    <div class="rio">
+                        <input type="reset" name="reset" value="reset">
+                    </div>
+                    <div class="container">
+                        <input type="submit" name="submit" value="Submit profile">
+                    </div>
+
+                </form>
+
+         </div>
+
+    </div>
+</body>
+</html>

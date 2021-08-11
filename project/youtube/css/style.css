@@ -1,0 +1,12 @@
+body{
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+}
+.container{
+    height: 20vh;
+    width: 100%;
+}
+/*img{*/
+/*    width: 25%;*/
+/*    height: 10vh;*/
+/*}*/

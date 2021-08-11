@@ -1,0 +1,19 @@
+/* element*/
+p{
+    background-color: black;
+    color: white;
+}
+/*using id*/
+#para1{
+    color: yellow;
+}
+/*using class*/
+.hello{
+   background-color: purple;
+}
+
+body{
+    background-image: url("../image/bg.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
